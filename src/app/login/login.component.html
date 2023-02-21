@@ -1,9 +1,29 @@
-<div class="container">
-  <div>
-    User Name : <input type="text" name="username" [(ngModel)]="username">
-    Password : <input type="password" name="password" [(ngModel)]="password">
-  </div>
-  <button (click)=checkLogin() class="btn btn-success">
-    Login
-  </button>
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h2>Login Page</h2><br>
+    <div class="login">
+    <form id="login" method="get" action="login.php">
+        <label><b>User Name
+        </b>
+        </label>
+        <input type="text" name="username" [(ngModel)]="username">
+        <br><br>
+        <label><b>Password
+        </b>
+        </label>
+        <input type="password" name="password" [(ngModel)]="password">
+        <br><br>
+        <button (click)=checkLogin() class="btn btn-success">
+          Login
+        </button>
+        <br><br>
+
+    </form>
+
 </div>
+</body>
+</html>

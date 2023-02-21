@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { LogoutComponent } from './logout/logout.component';
+import { FeedComponent } from './feed/feed.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LogoutComponent } from './logout/logout.component';
     LoginComponent,
     HeaderComponent,
     FooterComponent,
-    LogoutComponent
+      LogoutComponent,
+      FeedComponent
   ],
   imports: [
     BrowserModule,
